@@ -1,5 +1,5 @@
 # Use nginx as the base image  
-FROM nginx:v1 
+FROM nginx:latest
 
 # Copy website files to the default nginx directory  
 COPY . /usr/share/nginx/html  
